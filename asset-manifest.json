@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.548ae227.css",
-    "main.js": "/static/js/main.c6bf2338.js",
+    "main.js": "/static/js/main.6f93afa2.js",
     "static/media/Tribeversity.png": "/static/media/Tribeversity.aa57cc00fa78403b33fa.png",
     "static/media/Creator.png": "/static/media/Creator.1af99dfb9c0c773b0d5a.png",
     "static/media/Tribeliopage.png": "/static/media/Tribeliopage.61a570276c53b779d185.png",
@@ -9,10 +9,10 @@
     "static/media/Tribelio.png": "/static/media/Tribelio.5d769030f88981d9d88f.png",
     "index.html": "/index.html",
     "main.548ae227.css.map": "/static/css/main.548ae227.css.map",
-    "main.c6bf2338.js.map": "/static/js/main.c6bf2338.js.map"
+    "main.6f93afa2.js.map": "/static/js/main.6f93afa2.js.map"
   },
   "entrypoints": [
     "static/css/main.548ae227.css",
-    "static/js/main.c6bf2338.js"
+    "static/js/main.6f93afa2.js"
   ]
 }
