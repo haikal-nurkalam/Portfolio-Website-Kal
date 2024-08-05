@@ -200,7 +200,7 @@ const Home = () => {
       <div className="w-full md:px-16 px-4 py-6 mx-auto my-auto  justify-center flex items-center ">
         <p className=" lg:text-2xl md:text-xl text-base text-center text-Primary-Text font-bold">
           {" "}
-          © Kals 2023
+          © Kals 2024
         </p>
       </div>
     </div>
