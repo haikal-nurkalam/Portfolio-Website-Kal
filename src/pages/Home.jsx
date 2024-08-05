@@ -5,6 +5,8 @@ import Tribelio from "../assets/Image/Tribelio.png";
 import Creator from "../assets/Image/Creator.png";
 import Tribeliopage from "../assets/Image/Tribeliopage.png";
 import TribelioMobile from "../assets/Image/TribelioMobile.png";
+import { Helmet } from "react-helmet";
+import LazyLoad from "react-lazy-load";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,6 +18,17 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Haikal Nurkalam - UI/UX Designer & Coder</title>
+        <meta
+          name="description"
+          content="Haikal Nurkalam is an expert UI/UX Designer and coder based in Jakarta, Indonesia. Currently working at Tribelio, he excels in creating custom, engaging, and impactful digital experiences that drive user engagement and satisfaction."
+        />
+        <meta
+          name="keywords"
+          content="UI/UX Designer, Haikal Nurkalam, UI/UX design Jakarta, digital experience design, Tribelio, coder, impactful design, user engagement, custom design, Indonesia design expert"
+        />
+      </Helmet>
       <Header />
       {/* Hero */}
       <div
@@ -44,11 +57,13 @@ const Home = () => {
                 </h1>
                 <p class=" md:text-base text-sm text-Secondary">2024</p>
               </div>
-              <img
-                src={Tribeversity}
-                alt=""
-                className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-              />
+              <LazyLoad>
+                <img
+                  src={Tribeversity}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
             </div>
           </a>
           <a
@@ -63,11 +78,13 @@ const Home = () => {
                 </h1>
                 <p class=" md:text-base text-sm text-Secondary">2023</p>
               </div>
-              <img
-                src={Creator}
-                alt=""
-                className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-              />
+              <LazyLoad>
+                <img
+                  src={Creator}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
             </div>
           </a>
           <a href="https://tribeliopage.com/" rel="noreferrer" target="_blank">
@@ -78,11 +95,13 @@ const Home = () => {
                 </h1>
                 <p class=" md:text-base text-sm text-Secondary">2023</p>
               </div>
-              <img
-                src={Tribeliopage}
-                alt=""
-                className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-              />
+              <LazyLoad>
+                <img
+                  src={Tribeliopage}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
             </div>
           </a>
           <a href="https://tribelio.com/" rel="noreferrer" target="_blank">
@@ -93,11 +112,13 @@ const Home = () => {
                 </h1>
                 <p class=" md:text-base text-sm text-Secondary">2022</p>
               </div>
-              <img
-                src={Tribelio}
-                alt=""
-                className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-              />
+              <LazyLoad>
+                <img
+                  src={Tribelio}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
             </div>
           </a>
           <a
@@ -112,11 +133,13 @@ const Home = () => {
                 </h1>
                 <p class=" md:text-base text-sm text-Secondary">2022</p>
               </div>
-              <img
-                src={TribelioMobile}
-                alt=""
-                className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-              />
+              <LazyLoad>
+                <img
+                  src={TribelioMobile}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
             </div>
           </a>
         </div>
