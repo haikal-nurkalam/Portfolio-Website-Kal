@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./templates/Header";
-import Tribeversity from "../assets/Image/Tribeversity.png";
+import Tribeversity from "../assets/Image/Tribeversity2.png";
 import Tribelio from "../assets/Image/Tribelio.png";
 import Creator from "../assets/Image/Creator.png";
 import Tribeliopage from "../assets/Image/Tribeliopage.png";
