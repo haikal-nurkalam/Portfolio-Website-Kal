@@ -50,6 +50,23 @@ const Home = () => {
           Work
         </p>
         <div className="grid lg:grid-cols-2 md:grid-cols-2   gap-6 relative">
+          <a href="https://bubu.co.id/" rel="noreferrer" target="_blank">
+            <div className="rounded-xl overflow-clip relative flex flex-col gap-8 bg-Background-Card">
+              <div class="px-6 py-6 flex justify-between items-center">
+                <h1 class="lg:text-2xl md:text-xl text-lg text-Primary-Text">
+                  Bubu
+                </h1>
+                <p class=" md:text-base text-sm text-Secondary">2024</p>
+              </div>
+              <LazyLoad>
+                <img
+                  src={Bubu}
+                  alt=""
+                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                />
+              </LazyLoad>
+            </div>
+          </a>
           <a href="https://tribeversity.com/" rel="noreferrer" target="_blank">
             <div className="rounded-xl overflow-clip relative flex flex-col gap-8 bg-Background-Card">
               <div class="px-6 py-6 flex justify-between items-center">
@@ -116,23 +133,6 @@ const Home = () => {
               <LazyLoad>
                 <img
                   src={Tribelio}
-                  alt=""
-                  className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-                />
-              </LazyLoad>
-            </div>
-          </a>
-          <a href="https://bubu.co.id/" rel="noreferrer" target="_blank">
-            <div className="rounded-xl overflow-clip relative flex flex-col gap-8 bg-Background-Card">
-              <div class="px-6 py-6 flex justify-between items-center">
-                <h1 class="lg:text-2xl md:text-xl text-lg text-Primary-Text">
-                  Bubu
-                </h1>
-                <p class=" md:text-base text-sm text-Secondary">2024</p>
-              </div>
-              <LazyLoad>
-                <img
-                  src={Bubu}
                   alt=""
                   className="w-full bottom-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 />
